@@ -82,7 +82,7 @@ void f3() {
 }
 
 int main() {
-    auto logger = getLogger("f111");
+    auto logger = getLogger();
     // output: 23.02.2020 18:06:06; INFO; (1020): Starting the app
     logger(INFO) << "Starting the app"; // Default log level INFO
 

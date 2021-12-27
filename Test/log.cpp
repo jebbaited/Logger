@@ -101,7 +101,7 @@ void Logger::log(LogLevel logLevel, const std::string& text)
 		}
 	}
 
-	this->checkFirstCall = true;
+	checkFirstCall = true;
 }
 
 void Logger::ask()
